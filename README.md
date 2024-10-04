@@ -1,14 +1,20 @@
 # GSTN_Predictive_Model
 Random Forest Classifier for GST Classification
-# GSTN Data Classification using Random Forest
+"""
+Title: Random Forest Classifier for GST Data Classification
+Author: KAVYA T
+Team ID: GSTN_623
 
-## Overview
-This project uses a Random Forest classifier to predict the classification of GSTN data. The model is trained and evaluated on a dataset containing 21 features. The project achieves high accuracy and provides insights into feature importance.
-## Setup Instructions
+Description:
+This code trains and evaluates a Random Forest classifier on GST data 
+with preprocessed features. The model predicts whether a transaction 
+belongs to class 0 or 1 based on 21 features. The accuracy and 
+classification metrics are displayed along with the feature importance.
 
-### Step 1: Install Required Libraries
-Ensure you have Python 3.x installed. Install the required libraries using pip:
-```bash
-pip install numpy pandas scikit-learn imblearn matplotlib seaborn
-
+Steps:
+1. Data loading and merging (features and target).
+2. Data preprocessing (missing values handling and scaling).
+3. Model training using Random Forest.
+4. Model evaluation and feature importance analysis.
+"""
 
