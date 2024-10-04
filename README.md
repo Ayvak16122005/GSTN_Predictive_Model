@@ -1,10 +1,10 @@
 # GSTN_Predictive_Model
 Random Forest Classifier for GST Classification
 
-"""
-Title: Random Forest Classifier for GST Data Classification
-Author: KAVYA T
-Team ID: GSTN_623
+"""words
+#Title: Random Forest Classifier for GST Data Classification
+#Author: KAVYA T
+#Team ID: GSTN_623
 
 Description:
 This code trains and evaluates a Random Forest classifier on GST data 
