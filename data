@@ -1,1 +1,4 @@
-
+X_train = pd.read_csv('/content/X_Train_Data_Input.csv')
+Y_train = pd.read_csv('/content/Y_Train_Data_Target.csv')
+X_test = pd.read_csv('/content/X_Test_Data_Input.csv')
+Y_test = pd.read_csv('/content/Y_Test_Data_Target.csv')
